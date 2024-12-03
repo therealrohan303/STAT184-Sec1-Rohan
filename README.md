@@ -10,10 +10,17 @@ The analysis was performed using R with the following steps:
   
 Below is a sample of the R code used for visualization:
 
-``` ggplot(admission_rates_gender_major, aes(x = Major, y = Admission_Rate, fill = Gender)) +
-      geom_bar(stat = "identity", position = "dodge") +
-      labs(title = "Admission Rates by Major and Gender", x = "Major", y = "Admission Rate") +
-      theme_minimal() ```
+```r
+ggplot(admission_rates_gender_major, aes(x = Major, y = Admission_Rate, fill = Gender)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  labs(title = "Admission Rates by Major and Gender", x = "Major", y = "Admission Rate") +
+  theme_minimal()
+```
 
+# Results
+The analysis revealed varying admission rates across majors and genders:
 
+- Majors A and B showed the highest overall admission rates with minor gender discrepancies.
+- Major F exhibited the lowest admission rates, with both genders being affected similarly.
 
+![admission-rates-gender-major-1](https://github.com/user-attachments/assets/c20b5510-bfb3-419c-9099-0d224280d0b4)
