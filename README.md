@@ -1,2 +1,2 @@
-# STAT184-HW-Template
- STAT184 Github Day 1 HW Template
+# Introduction
+This repository explores potential gender biases in UC Berkeley’s admissions process using the 1973 dataset provided for analysis. The goal was to evaluate whether gender played a significant role in admission outcomes, as per the plaintiff's claim in a lawsuit. The dataset includes information about applicants, their gender, admission decisions, and the majors they applied to. The findings are documented in a Quarto notebook.
