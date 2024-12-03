@@ -24,3 +24,6 @@ The analysis revealed varying admission rates across majors and genders:
 - Major F exhibited the lowest admission rates, with both genders being affected similarly.
 
 ![admission-rates-gender-major-1](https://github.com/user-attachments/assets/c20b5510-bfb3-419c-9099-0d224280d0b4)
+
+# Contact 
+Please send any inquiries to rxd5491@psu.edu. Thank you for your time!
