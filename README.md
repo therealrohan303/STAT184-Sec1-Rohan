@@ -10,7 +10,10 @@ The analysis was performed using R with the following steps:
   
 Below is a sample of the R code used for visualization:
 
-ggplot(admission_rates_gender_major, aes(x = Major, y = Admission_Rate, fill = Gender)) +
-  geom_bar(stat = "identity", position = "dodge") +
-  labs(title = "Admission Rates by Major and Gender", x = "Major", y = "Admission Rate") +
-  theme_minimal()
+``` ggplot(admission_rates_gender_major, aes(x = Major, y = Admission_Rate, fill = Gender)) +
+      geom_bar(stat = "identity", position = "dodge") +
+      labs(title = "Admission Rates by Major and Gender", x = "Major", y = "Admission Rate") +
+      theme_minimal() ```
+
+
+
